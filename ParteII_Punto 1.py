@@ -3,7 +3,6 @@
 # In[]
 #Se eligió Python como lenguaje de programación
 def mantenimiento(fecha_inicio,promedio_km_diarios):
-    #fecha_inicio: DD-MM-YYYY
     arreglo_fecha=fecha_inicio.split('-')
     calendario=[]
     dias_mantenimiento = int(5000/promedio_km_diarios)
@@ -23,5 +22,6 @@ def mantenimiento(fecha_inicio,promedio_km_diarios):
         
     print(calendario)
         
-mantenimiento('31-01-2020', 5000)
+#fecha_inicio: DD-MM-YYYY
+mantenimiento('31-01-2020', 45)
 
